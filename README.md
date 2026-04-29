@@ -1,10 +1,11 @@
-# Shantanu Joshi Portfolio
+# Shantanu Joshi's Portfolio
 
 A minimal social links landing page.
 
 ## Tech Stack
 - HTML5 / CSS3
 - Three.js
+- React Bits (PixelBlast)
 - Feather Icons
 
 ## Links
