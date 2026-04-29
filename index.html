@@ -222,7 +222,7 @@
         .cursor-pixel {
             width: 4px;
             height: 4px;
-            background: #1E0B36; /* High-contrast Dark Violet */
+            background: #000000; /* Pure Black for maximum contrast */
             position: fixed;
             pointer-events: none;
             z-index: 9998;
@@ -489,7 +489,7 @@
         const uniforms = {
             uResolution: { value: new THREE.Vector2(renderer.domElement.width, renderer.domElement.height) },
             uTime: { value: 0 },
-            uColor: { value: new THREE.Color('#1E0B36') },
+            uColor: { value: new THREE.Color('#000000') },
             uClickPos: { value: Array.from({ length: 10 }, () => new THREE.Vector2(-1, -1)) },
             uClickTimes: { value: new Float32Array(10) },
             uShapeType: { value: SHAPE_MAP.circle },
