@@ -222,7 +222,7 @@
         .cursor-pixel {
             width: 4px;
             height: 4px;
-            background: #FF0080; /* Rainbow Pink */
+            background: #1E0B36; /* High-contrast Dark Violet */
             position: fixed;
             pointer-events: none;
             z-index: 9998;
@@ -489,13 +489,13 @@
         const uniforms = {
             uResolution: { value: new THREE.Vector2(renderer.domElement.width, renderer.domElement.height) },
             uTime: { value: 0 },
-            uColor: { value: new THREE.Color('#FF0080') },
+            uColor: { value: new THREE.Color('#1E0B36') },
             uClickPos: { value: Array.from({ length: 10 }, () => new THREE.Vector2(-1, -1)) },
             uClickTimes: { value: new Float32Array(10) },
             uShapeType: { value: SHAPE_MAP.circle },
             uPixelSize: { value: 6 * renderer.getPixelRatio() },
             uScale: { value: 3 },
-            uDensity: { value: 1.2 },
+            uDensity: { value: 1.5 },
             uPixelJitter: { value: 0.5 },
             uEnableRipples: { value: 1 },
             uRippleSpeed: { value: 0.25 },
