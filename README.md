@@ -22,3 +22,5 @@ A minimal social links landing page.
 ---
 Built by Shantanu Joshi
 
+Image credit: Daniel Olah on Unsplash
+
